@@ -1,22 +1,28 @@
-.navbar-expand-lg {
-    padding-top: 5em ;
-}
+
 .bg-light{
     background-color: #6ABEBF !important;
 }
-.container-fluid {
-    padding-bottom: 5em;
-}
-#rüeblichueche-text{
-    margin-top: 1em;
-    font-family: 'Roboto Condensed', sans-serif;
+#welcometext{
+    margin-left: 25%;
+    font-size: 1.5em;
+    font-family: 'Pacifico', cursive;
+    position: fixed;
+    
 }
 .recipe{
+    margin-top: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-left: 1em;
 }
 #rüeblichueche {
     margin-top: 1em;
-    height: 50em;
+    margin-left: 1em;
+    height: 21em;
+}
+#ingredientslist{
+  border-left: 6px solid green;
+  height: 100%;
+  border-right: 6px solid green;
 }
 #footerS {
     margin-top: 3em;
@@ -25,7 +31,7 @@
 .bi {
     height: 2em;
     width: 2em;
-    border-radius: ;
+    
   }
   .bi-facebook {
     background: White;

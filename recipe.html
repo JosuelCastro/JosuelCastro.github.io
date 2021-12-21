@@ -18,46 +18,97 @@ crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
 <!--css-->
 <link rel="stylesheet" href="recipe.css">
 
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Jump to your steps!
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Step 1</a></li>
-                  <li><a class="dropdown-item" href="#">Step 2</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+  <nav class="navbar sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="recipe.html"> <img src="images/Unbenannt.png" height="150em"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Searching for a recipe?" aria-label="Search">
-              <a href="result.html" class="btn btn-outline-success" type="submit">Search</a>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 <!-- Start of recipe -->
-<h1 class="recipe" id="rüeblichueche-text">Rüeblichueche</h1>
-<img class="recipe" src="images/default-placeholder.png" alt="Rüeblichueche" id="rüeblichueche">
+<div class="container-fluid"></div>
+<div class="row">
+  <div class="col-sm"><h1 class="recipe"><b>Rüeblichueche</b></h1></div>
+
+</div>
+<div class="row">
+<div class="col-sm"><img src="images/presentedcake.jpg" alt="Rüeblichueche" id="rüeblichueche" ></div>
+
+<div class="col-sm" id="ingredientslist">
+  <h5>Ingredients</h5>
+  250 g sugar
+  5 egg yolks
+  2 tablespoons hot water
+  <hr>
+  250 g carrots, finely grated
+  250 g ground almonds
+  1 organic lemon, grated peel and juice
+  2 tablespoons cherry
+  80 g flour
+  2 tsp. baking powder
+  <hr>
+  5 egg whites
+  1 pinch of salt
+  <hr>
+  300 g powdered sugar
+  2 tablespoons cherry or lemon juice
+  2 tablespoons water
+  <hr>
+  12 marzipan carrots
+  <hr></div>
+</div>
+<br><br><br><br><br><br>
+
+  <div class="row">
+      <div class="col-md-1"><h1>Step 1:</h1></div>
+</div>
+<div class="row">
+  <div class="col-md-3">Sugar, egg yolks and water in a bowl and then whisk it for approx. 5 min.</div>
+  
+</div>
+<div class="row">
+  <div class="col-md-3"><img class="recipe" src="images/Step1.jpg" alt="Rüeblichueche" id="Bowl with sugar, egg yolk and water" height="250em"></div>
+</div>
+</div>
 
 <!-- Footer -->
       <footer class="text-center text-lg-start bg-black text-white" id="footerS">
@@ -84,7 +135,7 @@ crossorigin="anonymous"></script>
           <a href="contact.html" class="nav-link" id="indexStuff">Contact</a>
         </section>
         <div class="text-center p-4" style="background-color: #419B9B;">
-          © 2021 Copyright: SeniorTech
+          © 2021 Copyright: Josu Backt
         </div>
       </footer>
 </body>
