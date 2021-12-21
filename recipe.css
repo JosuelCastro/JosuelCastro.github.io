@@ -10,3 +10,45 @@ body{
 .container-fluid {
     padding-bottom: 5em;
 }
+
+#footerS {
+    margin-top: 3em;
+    background-color: #288686;
+  }
+.bi {
+    height: 2em;
+    width: 2em;
+    border-radius: ;
+  }
+  .bi-facebook {
+    background: White;
+    color: #3b5998;
+    border-radius: 50%;
+  }
+  .bi-twitter {
+    background: #55acee;
+    color: white;
+    border-radius: 25%;
+  }
+  .bi-instagram {
+    background: #8a3ab9;
+    color: white;
+    border-radius: 25%;
+  }
+  .bi-youtube {
+    background: white;
+    color: brown;
+    border-radius: 25%;
+  }
+  .bi-reddit {
+    background: white;
+    color: orangered;
+    border-radius: 50%;
+  }
+  .bi:hover {
+    height: 2.5em;
+    width: 2.5em;
+  }
+  .text-center{
+      padding-top: 1em;
+  }
