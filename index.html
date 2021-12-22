@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Martini Spritz Recipe</title>
+    <title>Rüeblichueche Recipe</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- BS5 .js und popperjs Link für Dropdown usw.  -->
@@ -24,6 +24,8 @@ crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
 <!--css-->
 <link rel="stylesheet" href="recipe.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 </head>
@@ -35,26 +37,30 @@ crossorigin="anonymous"></script>
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Link
+              Jump to steps
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#rüeblichueche">Step 1</a></li>
+              <li><a class="dropdown-item" href="#Step1">Step 2</a></li>
+              <li><a class="dropdown-item" href="#Step2">Step 3</a></li>
+              <li><a class="dropdown-item" href="#Step3">Step 4</a></li>
+              <li><a class="dropdown-item" href="#Step4">Step 5</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#"><a href="/Martini Spritz Recipe.pdf" download="Recipe of Rüeblichueche">Download all steps here!</a></a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Popular recipe!</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Your profile</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -69,9 +75,14 @@ crossorigin="anonymous"></script>
 <div class="row">
   <div class="col-sm"><h1 class="recipe"><b>Rüeblichueche</b></h1></div>
 </div>
-<div class="row">
+<div class="row">ss
 <div class="col-sm"><img src="images/presentedcake.jpg" alt="Rüeblichueche" id="rüeblichueche" ></div>
-<div class="col-sm"></div>
+<div class="col-sm"><a href="/Martini Spritz Recipe.pdf" download="Recipe of Rüeblichueche"><button class="btn btn-primary"><i class="fa fa-download"></i> Download the recipe!</button></a>
+<br> 
+<button type="button" class="btn btn-danger"><i class="fa fa-heart" style="font-size: 18px;color:white"></i> Save to favorite</button>
+<br>
+<button type="button" class="btn btn-success"><h> <i class="fa fa-bookmark-o" style="font-size:20px"></i> Save recipe</button>
+</div>
 <div class="col-sm" id="ingredientslist">
   <h5>Ingredients</h5>
   250 g sugar <br>
@@ -97,8 +108,8 @@ crossorigin="anonymous"></script>
 </div>
 <br><br><br><br><br><br>
 <!-- Steps -->
-  <div class="row">
-      <div class="col-sm-2 steps"><h1>Step 1:</h1></div>
+  <div class="row" id="Step1">
+      <div class="col-sm-2 steps title"><h1>Step 1:</h1></div>
 </div>
 <div class="row">
   <div class="col-sm-3 steps">Sugar, egg yolks and water in a bowl and then whisk it for approx. 5 min.</div>
@@ -106,52 +117,57 @@ crossorigin="anonymous"></script>
 </div>
 <div class="row"></div>
 <div class="row">
-  <div class="col-sm-3"><img class="recipe" src="images/Step1.jpg" alt="Bowl with sugar, egg yolk and water" height="250em"></div>
+  <div class="col-sm-3"><img class="recipe-image" src="images/Step1.jpg" alt="Bowl with sugar, egg yolk and water" height="250em"></div>
 </div>
 
-<div class="row">
-  <div class="col-sm-2 steps"><h1>Step 2:</h1></div>
+<div class="row" id="Step2">
+  <div class="col-sm-2 steps title"><h1>Step 2:</h1></div>
 </div>
 <div class="row">
 <div class="col-sm-3 steps">Mix carrots and all ingredients up to and including Kirsch into the mixture. Mix flour and baking powder, add to the mixture.</div>
 </div>
 <div class="row">
-<div class="col-sm-3"><img class="recipe" src="images/Step2.jpg" alt="Mixed up ingredients" height="250em"></div>
+<div class="col-sm-3"><img class="recipe-image" src="images/Step2.jpg" alt="Mixed up ingredients" height="250em"></div>
 </div>
 
-<div class="row">
-  <div class="col-sm-2 steps"><h1>Step 3:</h1></div>
+<div class="row" id="Step3">
+  <div class="col-sm-2 steps title"><h1>Step 3:</h1></div>
 </div>
 <div class="row">
 <div class="col-sm-3 steps">Beat the egg whites with the salt until stiff, carefully fold into the mixture with the rubber scraper. Pour the dough into the mold</div>
 </div>
 <div class="row">
-<div class="col-sm-3"><img class="recipe" src="images/Step3.jpg" alt="The mixture is being put in the mold" height="250em"></div>
+<div class="col-sm-3"><img class="recipe-image" src="images/Step3.jpg" alt="The mixture is being put in the mold" height="250em"></div>
 </div>
 
-<div class="row">
-  <div class="col-sm-2 steps"><h1>Step 4:</h1></div>
+<div class="row" id="Step4">
+  <div class="col-sm-2 steps title"><h1>Step 4:</h1></div>
 </div>
 <div class="row">
 <div class="col-sm-3 steps"t>Bake approx. 55 min. in the lower half of the oven preheated to 180 degrees. Remove from the oven, cool slightly, remove the sides of the pan, turn the cake out onto a wire rack and allow to cool. Place the cake with the grid on a baking paper.</div>
 </div>
 <div class="row">
-<div class="col-sm-3"><img class="recipe" src="images/Step4.jpg" alt="Cake is in the Oven" height="250em"></div>
+<div class="col-sm-3"><img class="recipe-image" src="images/Step4.jpg" alt="Cake is in the Oven" height="250em"></div>
 </div>
 
-<div class="row">
-  <div class="col-sm-2 steps"><h1>Step 5:</h1></div>
+<div class="row" id="Step">
+  <div class="col-sm-2 steps title"><h1>Step 5:</h1></div>
 </div>
 <div class="row">
 <div class="col-sm-3 steps"t>Mix powdered sugar, kirsch and water well, pour on the center of the cake, let it flow while moving over the surface and the edge. Place marzipan ruffles on the still wet glaze, let dry.</div>
 <div class="row">
-<div class="col-sm-3"><img class="recipe" src="images/Step5.jpg" alt="" height="250em"></div>
+<div class="col-sm-3"><img class="recipe-image" src="images/Step5.jpg" alt="" height="250em">
+  <br><br><br><br><br><br><br><br>
+</div>
+
 </div>
 
 
 <!-- Footer -->
+
       <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
+  
   <!-- Section: Social media -->
   <section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -275,6 +291,7 @@ crossorigin="anonymous"></script>
   </div>
   <!-- Copyright -->
 </footer>
+
 <!-- Footer -->
 </body>
 </html>
