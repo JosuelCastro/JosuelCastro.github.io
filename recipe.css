@@ -35,6 +35,9 @@ body{
     margin-left: 2em;
     border-radius: 5%;
 }
+#details{
+  padding-top: 1em;
+}
 
 #footerS {
     margin-top: 3em;
@@ -45,31 +48,18 @@ body{
     width: 2em;
     
   }
-  .bi-facebook {
-    background: White;
-    color: #3b5998;
-    border-radius: 50%;
+  .kilimanjaro_social_links > li {
+    display: inline-block;
   }
-  .bi-twitter {
-    background: #55acee;
-    color: white;
-    border-radius: 25%;
-  }
-  .bi-instagram {
-    background: #8a3ab9;
-    color: white;
-    border-radius: 25%;
-  }
-  .bi-youtube {
-    background: white;
-    color: brown;
-    border-radius: 25%;
-  }
-  .bi-reddit {
-    background: white;
-    color: orangered;
-    border-radius: 50%;
-  }
+  .kilimanjaro_social_links a {
+    border: 1px solid #888;
+    border-radius: 6px;
+    color: #888;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding: 7px 12px;
+}
   .text-center{
       padding-top: 1em;
   }
